@@ -55,7 +55,7 @@ namespace DocumentMerger2
                     catch (Exception y)
 
                     {
-                        Console.WriteLine(y.ToString());
+                        Console.WriteLine("Error with File.");
                         Environment.Exit(0);
                     }
                 }
@@ -71,7 +71,7 @@ namespace DocumentMerger2
                 }
                 catch (Exception x)
                 {
-                    Console.WriteLine(x.ToString());
+                    Console.WriteLine("The File Name Does Not Exist");
                     Environment.Exit(0);
                 }
             }
